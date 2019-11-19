@@ -26,9 +26,7 @@ public class TestThread extends BaseThread {
 	}
 
 	@Override
-	public void execute() throws Exception {		
+	public void execute() throws Exception {
 		System.out.print("TestThread running..!!");
 	}
-	
-
 }
