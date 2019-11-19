@@ -24,11 +24,8 @@ public class TestThread extends BaseThread {
 		super(doneSignal);
 		// TODO Auto-generated constructor stub
 	}
-
 	@Override
-	public void execute() throws Exception {		
+	public void execute() throws Exception {
 		System.out.print("TestThread running..!!");
 	}
-	//test message
-
 }
